@@ -57,7 +57,7 @@ public class welcomePageController {
     }
 
     public void goToCommunittyHub(MouseEvent event) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("communiyhubPage.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("communityhubPage.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
