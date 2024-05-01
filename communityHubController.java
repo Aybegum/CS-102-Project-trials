@@ -19,8 +19,71 @@ public class communityHubController {
     private Parent root;
     @FXML
     private Button likedSongs;
-    public void goToCommunity(MouseEvent event) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("postPage.fxml"));
+    public void goToAlternativeCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("alternativeCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToPopCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("popCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToRbCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("r&bCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToHiphopCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("hiphopCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToJazzCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("jazzCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToCountryCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("countryCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToClassicalCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("classicalCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToIndieCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("indieCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToRockCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("rockCommunityPostPage.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void goToMetalCommunity(MouseEvent event) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("metalCommunityPostPage.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
